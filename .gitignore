@@ -1,0 +1,57 @@
+# Data files - exclude datasets for privacy/size reasons
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+*.parquet
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large presentation files
+*.pptx
+*.ppt
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files (if any)
+*.pkl
+*.joblib
+*.h5
+*.model
