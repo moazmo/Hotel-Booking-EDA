@@ -36,6 +36,20 @@ This project analyzes hotel booking data to uncover insights about:
 - Canceled bookings show similar price distribution to confirmed bookings
 - Price alone doesn't appear to be the main factor in cancellations
 
+### Feature Correlations
+![Correlation Heatmap](images/correlation_heatmap.png)
+- Strong correlations between P-C and P-not-C variables (related to booking outcome)
+- Moderate correlation between weekend and week nights
+- Lead time shows interesting patterns with other features
+
+### Business Intelligence Dashboard
+![Business Insights Dashboard](images/business_insights_dashboard.png)
+Key insights from the dashboard:
+- **Complementary market segment** has 100% cancellation rate
+- **Canceled bookings** have significantly higher lead times (139 days vs 59 days)
+- **Special requests** correlate inversely with cancellation rates
+- **Room Type 6** commands the highest average price
+
 ## 📊 Dataset Information
 
 - **Total Records**: 36,285 hotel bookings
@@ -114,7 +128,9 @@ Hotel_Booking_EDA/
 │   ├── booking_status_distribution.png
 │   ├── price_distribution.png
 │   ├── room_type_distribution.png
-│   └── price_by_booking_status.png
+│   ├── price_by_booking_status.png
+│   ├── correlation_heatmap.png
+│   └── business_insights_dashboard.png
 └── requirements.txt
 ```
 
